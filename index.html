@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Golf</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+<div id="scoring"><div></div></div>
+<div id="info">
+    <b>
+        <span>Waiting...</span>
+        <br>
+        <span style="font-size: 2vw; float: left; margin-left: 4px;">Par: 0</span>
+        <span style="font-size: 2vw; float: left; margin-left: 4px;">Strokes: 0</span>
+        <span style="font-size: 2vw; float: right; margin-right: 4px;">Power: 0</span>
+        <br>
+        <span style="right: 4px; font-size: 2vw; position: absolute; bottom: 6vh;">Wind: 0 m/s</span>
+    </b>
+    <div id="power"></div>
+</div>
+<div id="ball">
+    <img src="aimArrow.png" alt="Aim Arrow" id="aimArrow" style="position: absolute; left: -3.5vw;">
+</div>
+<div class="hole"></div>
+<div style="position: absolute;" id="holeLocationDiv">
+    <img src="flag.png" alt="Flag" id="holeLocation">
+    <span style="z-index: 3; display: inline-block;">30m</span>
+</div>
+<div id="obstacles"></div>
+<script src="utilities.js"></script>
+<script src="init.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

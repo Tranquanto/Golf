@@ -1,0 +1,206 @@
+@keyframes power {
+    0% {
+        filter: brightness(100%);
+    }
+    50% {
+        filter: brightness(70%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
+}
+
+@keyframes infinity {
+    0% {
+        color: #f00;
+    }
+    16.7% {
+        color: #ff0;
+    }
+    33.3% {
+        color: #0f0;
+    }
+    50% {
+        color: #0ff;
+    }
+    66.7% {
+        color: #00f;
+    }
+    83.3% {
+        color: #f0f;
+    }
+    100% {
+        color: #f00;
+    }
+}
+
+@keyframes ben {
+    0% {
+        color: #0f0;
+    }
+    25% {
+        color: #f0f;
+    }
+    50% {
+        color: #ff0;
+    }
+    75% {
+        color: #0ff;
+    }
+    100% {
+        color: #f00;
+    }
+}
+
+@keyframes birdie {
+    0% {
+        color: #6af;
+    }
+    50% {
+        color: #59e;
+    }
+    100% {
+        color: #6af;
+    }
+}
+
+@keyframes eagle {
+    0% {
+        color: #c26a00;
+    }
+    33% {
+        color: #804b09;
+    }
+    67% {
+        color: #fff;
+    }
+    100% {
+        color: #c26a00;
+    }
+}
+
+@keyframes albatross {
+    0% {
+        color: #5fd281;
+    }
+    50% {
+        color: #fff;
+    }
+    100% {
+        color: #5fd281;
+    }
+}
+
+@keyframes condor {
+    0% {
+        color: #838;
+    }
+    50% {
+        color: #0c060c;
+    }
+    100% {
+        color: #838;
+    }
+}
+
+@keyframes ostrich {
+    0% {
+        color: #e700a6;
+    }
+    50% {
+        color: #8a567c;
+    }
+    100% {
+        color: #e700a6;
+    }
+}
+
+@keyframes phoenix {
+    0% {
+        color: #ff7300;
+    }
+    50% {
+        color: #ffcc00;
+    }
+    100% {
+        color: #ff7300;
+    }
+}
+
+@keyframes penguin {
+    0% {
+        color: #cde8e7;
+    }
+    50% {
+        color: #fff;
+    }
+    100% {
+        color: #cde8e7;
+    }
+}
+
+@keyframes parrot {
+    0% {
+        color: #59c424;
+    }
+    33% {
+        color: #ff0000;
+    }
+    67% {
+        color: #0e93ff;
+    }
+    100% {
+        color: #59c424;
+    }
+}
+
+@keyframes goose {
+    0% {
+        color: #fff;
+        transform: scale(1);
+    }
+    50% {
+        color: #f80;
+        transform: scale(1.2);
+    }
+    100% {
+        color: #fff;
+        transform: scale(1);
+    }
+}
+
+@keyframes dragon {
+    0% {
+        color: #090;
+    }
+    50% {
+        color: #2f672f;
+    }
+    100% {
+        color: #090;
+    }
+}
+
+@keyframes roc {
+    0% {
+        color: #6c1414;
+    }
+    50% {
+        color: #000;
+    }
+    100% {
+        color: #6c1414;
+    }
+}
+
+@keyframes minokawa {
+    0% {
+        color: #8ff3f3;
+    }
+    50% {
+        color: #ffff81;
+    }
+    100% {
+        color: #8ff3f3;
+    }
+}
